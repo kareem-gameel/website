@@ -155,6 +155,15 @@ p {
   overflow: hidden;
 }
 
+.card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  display: block;
+  object-fit: contain;
+  background: #eef3f6;
+  border-bottom: 1px solid var(--line);
+}
+
 .card h3,
 .card p,
 .card .text-link {
@@ -172,17 +181,6 @@ p {
   font-weight: 700;
 }
 
-.image-placeholder {
-  aspect-ratio: 16 / 9;
-  display: grid;
-  place-items: center;
-  color: #60717f;
-  background:
-    linear-gradient(135deg, rgba(47, 111, 115, 0.2), rgba(199, 211, 217, 0.55)),
-    #dfe7ec;
-  font-weight: 700;
-}
-
 .pub-list,
 .plain-list {
   padding-left: 1.2rem;
@@ -191,6 +189,24 @@ p {
 .pub-list li,
 .plain-list li {
   margin-bottom: 14px;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 0;
+  margin: 26px 0 0;
+  list-style: none;
+}
+
+.tag-list li {
+  padding: 10px 14px;
+  color: var(--accent-dark);
+  background: #e3eff0;
+  border: 1px solid #c5d9dc;
+  border-radius: 999px;
+  font-weight: 700;
 }
 
 .pub-list a {
