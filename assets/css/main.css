@@ -220,6 +220,22 @@ p {
   margin-bottom: 14px;
 }
 
+.pub-heading {
+  margin-top: 30px;
+}
+
+.pub-badge {
+  display: inline-block;
+  margin-bottom: 4px;
+  padding: 3px 8px;
+  color: var(--accent-dark);
+  background: #e3eff0;
+  border: 1px solid #c5d9dc;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
 .tag-list {
   display: flex;
   flex-wrap: wrap;
@@ -238,7 +254,8 @@ p {
   font-weight: 700;
 }
 
-.pub-list a {
+.pub-list a,
+.pub-title {
   display: block;
   font-weight: 700;
 }
@@ -246,6 +263,11 @@ p {
 .pub-list span {
   display: block;
   color: var(--muted);
+}
+
+.pub-list .pub-badge {
+  display: inline-block;
+  color: var(--accent-dark);
 }
 
 .contact-section {
