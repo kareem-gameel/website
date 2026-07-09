@@ -241,6 +241,11 @@ p {
   max-height: 44px;
 }
 
+.logo-tile .logo-square {
+  max-width: 92px;
+  max-height: 72px;
+}
+
 .logo-with-label {
   gap: 8px;
 }
