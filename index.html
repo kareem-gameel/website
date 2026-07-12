@@ -11,6 +11,7 @@
     <header class="site-header">
       <nav class="nav" aria-label="Main navigation">
         <a href="#about">About</a>
+        <a href="#interests">Interests</a>
         <a href="#collaborations">Industrial</a>
         <a href="#research">Scientific</a>
         <a href="#publications">Publications</a>
@@ -44,6 +45,39 @@
             translating that understanding into predictive computational models
             that accelerate discovery.
           </p>
+        </div>
+      </section>
+
+      <section id="interests" class="section section-muted">
+        <div class="section-copy">
+          <h2>Research Interests</h2>
+          <p>
+            I focus on the physics of electronic response and on machine-learning
+            models that transfer across chemistry, structure, and length scale.
+          </p>
+        </div>
+        <div class="interest-grid">
+          <article class="interest-card">
+            <h3>Electronic Response at Nanoscopic Interfaces</h3>
+            <p>
+              Interfaces control device function in batteries, supercapacitors,
+              catalysts, sensors, and semiconductor devices. I develop
+              first-principles models of interfacial electronic response, because
+              response to external perturbations is the physical quantity that
+              connects microscopic structure to device behavior, design, and
+              optimization.
+            </p>
+          </article>
+          <article class="interest-card">
+            <h3>Generalizable ML for Molecular and Materials Discovery</h3>
+            <p>
+              Machine learning is strongest when the learned mapping transfers
+              beyond narrow interpolation. I study representations, targets, and
+              target transformations that make atomistic learning problems
+              smoother, more transferable, and better matched to model
+              expressivity across broad chemical spaces.
+            </p>
+          </article>
         </div>
       </section>
 
@@ -110,39 +144,45 @@
 
       <section id="research" class="section">
         <div class="section-copy">
-          <h2>Scientific Projects</h2>
+          <h2>Research Projects</h2>
           <p>
-            My current research program connects physical model development,
-            scalable data generation, and machine learning for electronic response
-            in complex materials systems.
+            Current projects connect first-principles electronic-structure
+            calculations, physically meaningful target design, and multimodal
+            machine learning for molecular and materials systems.
           </p>
         </div>
-        <div class="card-grid">
+        <div class="card-grid project-grid">
           <article class="card">
             <img src="assets/images/silica_graphene_substrate.png" alt="Graphene silica interface with charge density and potential response.">
-            <h3>Interfacial Capacitance Modeling in Nanoscopic Systems</h3>
+            <h3>Substrate-2D Interfacial Capacitance from First Principles</h3>
             <p>
-              I developed the Quantum Interfacial Capacitance framework, which
-              combines first-principles electrostatic screening with quantum
-              capacitance to predict field response in low-dimensional interfaces.
+              Modeling electrostatic screening, quantum capacitance, and field
+              response in substrate-supported two-dimensional interfaces.
             </p>
           </article>
           <article class="card">
-            <img src="assets/images/adaptive_workflow_provided.png" alt="Adaptive workflow for generating interfacial response datasets.">
-            <h3>Target Design for Generalizable Machine Learning</h3>
+            <img src="assets/images/silica_graphene_substrate.png" alt="Confined graphene-based pore model for interfacial response.">
+            <h3>Microporous Laminar Pores under Extreme Ion Confinement</h3>
             <p>
-              I study how target formulation, delta learning, and hierarchical
-              learning can reshape difficult first-principles prediction problems
-              into smoother mappings that transfer more reliably across chemistry.
+              Studying how confined ions reshape electronic response and
+              capacitance in nanoscopic laminar pore geometries.
             </p>
           </article>
           <article class="card">
-            <img src="assets/images/hamiltonian_graph_dos.png" alt="Hamiltonian-informed representation for density of states learning.">
-            <h3>Hamiltonian Feature Representation for Electronic Structure Learning</h3>
+            <img src="assets/images/adaptive_workflow_provided.png" alt="Adaptive workflow for target transformation and delta learning.">
+            <h3>Target Transformation via Delta Learning</h3>
             <p>
-              I am developing Hamiltonian-informed representations for electronic
-              structure learning, with emphasis on spectral quantities such as the
-              density of states and response properties in materials interfaces.
+              Transforming difficult molecular prediction targets into smoother,
+              more transferable learning problems for generalizable models.
+            </p>
+          </article>
+          <article class="card">
+            <img src="assets/images/hamiltonian_graph_dos.png" alt="Hamiltonian and geometric representation for electronic structure learning.">
+            <h3>Multimodal Bandgap Learning from Hamiltonian and Geometry</h3>
+            <p>
+              Combining Hamiltonian-derived electronic descriptors with
+              geometrical representations to learn electronic bandgaps across
+              diverse molecular and materials systems.
             </p>
           </article>
         </div>
