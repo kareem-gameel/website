@@ -712,8 +712,8 @@ p {
 .project-links {
   margin-top: auto;
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px 18px;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .project-links a,
@@ -723,6 +723,28 @@ p {
   font-size: 0.88rem;
   font-weight: 750;
   text-decoration: none;
+}
+
+.project-links a {
+  width: 100%;
+}
+
+.project-link-meta,
+.project-link-title {
+  display: block;
+}
+
+.project-link-meta {
+  margin-bottom: 3px;
+  color: var(--muted);
+  font-size: 0.69rem;
+  font-weight: 750;
+  text-transform: uppercase;
+}
+
+.project-link-title {
+  width: fit-content;
+  line-height: 1.35;
   border-bottom: 1px solid currentColor;
 }
 
