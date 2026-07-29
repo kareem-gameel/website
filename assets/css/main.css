@@ -677,10 +677,11 @@ p {
 }
 
 .project-image {
-  height: 224px;
+  height: 320px;
+  flex: 0 0 320px;
   display: grid;
   place-items: center;
-  padding: 18px;
+  padding: 12px;
   background: #f7faf9;
   border-bottom: 1px solid var(--line);
   overflow: hidden;
@@ -696,7 +697,7 @@ p {
 }
 
 .project-body {
-  height: 100%;
+  flex: 1;
   padding: 26px;
   display: flex;
   flex-direction: column;
@@ -1325,7 +1326,8 @@ p {
   }
 
   .project-image {
-    height: 218px;
+    height: 270px;
+    flex-basis: 270px;
   }
 
   .project-body h3 {
